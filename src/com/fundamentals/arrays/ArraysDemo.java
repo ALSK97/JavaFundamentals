@@ -4,11 +4,10 @@ import java.util.Arrays;
 
 public class ArraysDemo {
 
-
 	public static void main(String[] args) {
-	
+
 		// Array declaration
-		
+
 		int[] arr;
 		int arr1[];
 
@@ -25,7 +24,7 @@ public class ArraysDemo {
 		System.out.println(arr3[1]);
 
 		// 1-D Array
-		int[] matrix_1D = {5,2,4};
+		int[] matrix_1D = { 5, 2, 4 };
 		System.out.print(matrix_1D[0]);
 		System.out.print(matrix_1D[1]);
 		System.out.print(matrix_1D[2]);
@@ -37,8 +36,8 @@ public class ArraysDemo {
 
 		// 2-D Array
 		int[][] matrix_2D = {
-				{9,1,6},
-				{4,9,7}
+				{ 9, 1, 6 },
+				{ 4, 9, 7 }
 		};
 		System.out.print(matrix_2D[0][0]);
 		System.out.print(matrix_2D[0][1]);
@@ -53,7 +52,7 @@ public class ArraysDemo {
 
 		matrix = new int[3][3];
 		System.out.println(matrix[0]);
-		
+
 	}
 
 }

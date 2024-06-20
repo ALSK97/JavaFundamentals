@@ -111,13 +111,13 @@ public class Operators {
 		 * 				1 0 1 = 5
 		 */
 
-		System.out.println("4 | 5 = " + (4 | 5)); // 5
+		System.out.println("4 ^ 5 = " + (4 ^ 5)); // 1
 		/*
 		 * 				1 0 0
-		 * 				| | |
+		 * 				^ ^ ^
 		 * 				1 0 1
 		 * 				-----
-		 * 				1 0 1 = 5
+		 * 				0 0 1 = 1
 		 */
 
 		System.out.println("~1 = " + ~1);
