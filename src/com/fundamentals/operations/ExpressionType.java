@@ -1,4 +1,4 @@
-package com.fundamentals.operators;
+package com.fundamentals.operations;
 
 public class ExpressionType {
 
