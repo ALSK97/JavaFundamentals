@@ -1,4 +1,4 @@
-package com.fundamentals.operations;
+package com.fundamentals.primitiveTypes;
 
 public class PrimitiveTypes {
 
