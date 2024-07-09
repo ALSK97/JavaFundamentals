@@ -1,0 +1,34 @@
+package com.fundamentals.loopConcepts;
+
+public class ForLoopMethod {
+
+	public static void main(String[] args) {
+
+		System.out.println("=========== for loop");
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println("counter: " + i);
+		}
+
+		System.out.println("=========== for loop with Break statement");
+
+		for (int i = 0; i < 5; i++) {
+			if (i == 3) {
+				break;
+			}
+			System.out.println("counter: " + i);
+		}
+
+		System.out.println("=========== for loop | comma usage example");
+		for (int i = 0, j = 10; i < j; i++, j--) {
+			System.out.println("counters: i = " + i + ", j = " + j);
+		}
+
+		// Infinite loop
+//		for (;;) {
+//
+//		}
+
+	}
+
+}
