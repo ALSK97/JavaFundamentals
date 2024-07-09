@@ -1,4 +1,4 @@
-package com.fundamentals.loop;
+package com.fundamentals.loopConcepts;
 
 public class WhileLoopMethod {
 
