@@ -14,6 +14,7 @@ public class ExpressionType {
 
 		char c = 1;
 
+		System.out.println("=========== intExpressionTypes ===========");
 		int intExpressionType = b + b;
 		System.out.println(intExpressionType);
 		int intExpressionType2 = s + s;
@@ -21,6 +22,7 @@ public class ExpressionType {
 		int intExpressionType3 = b + i + c;
 		System.out.println(intExpressionType3);
 
+		System.out.println("=========== longExpressionTypes ===========");
 		long longExpressionType = b + l;
 		System.out.println(longExpressionType);
 		long longExpressionType2 = s + l;
@@ -29,7 +31,12 @@ public class ExpressionType {
 		System.out.println(longExpressionType3);
 		long longExpressionType4 = b + s + i + l;
 		System.out.println(longExpressionType4);
+		Short s1 = 100;
+		Integer i1 = 100;
+		Long longExpressionType5 = (long) s1 + i1;
+		System.out.println(longExpressionType5);
 
+		System.out.println("=========== floatExpressionTypes ===========");
 		float floatExpressionType = b + f;
 		System.out.println(floatExpressionType);
 		float floatExpressionType2 = s + f;
@@ -41,6 +48,7 @@ public class ExpressionType {
 		float floatExpressionType5 = b + s + i + l + f;
 		System.out.println(floatExpressionType5);
 
+		System.out.println("=========== doubleExpressionTypes ===========");
 		double doubleExpressionType = b + d;
 		System.out.println(doubleExpressionType);
 		double doubleExpressionType2 = s + d;
