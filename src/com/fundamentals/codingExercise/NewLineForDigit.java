@@ -11,10 +11,15 @@ public class NewLineForDigit {
 		System.out.print("Please, enter any integer: ");
 		String digit = sc.next();
 
-		for (int i = 0; i < digit.length(); i++) {
+//		with For Loop
+		/*for (int i = 0; i < digit.length(); i++) {
 			System.out.println(digit.charAt(i));
-		}
+		}*/
 
+//		with For Each Loop
+		for (char number : digit.toCharArray()) {
+			System.out.println(number);
+		}
 	}
 
 }
